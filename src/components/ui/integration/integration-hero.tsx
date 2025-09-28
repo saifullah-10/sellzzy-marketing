@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-const StoreHero = () => {
+const IntegrationHero = () => {
   return (
-    <section className="max-w-[1280px] mx-auto lg:space-y-10 md:space-y-8 space-y-6 lg:mt-28 md:mt-16 mt-10 px-[5%] ">
-      <div className="lg:space-y-10 md:space-y-8 space-y-6">
+    <section className="max-w-[1280px] mx-auto lg:space-y-10 md:space-y-8 space-y-6 lg:mt-28 md:mt-16 mt-10">
+      <div className="lg:px-0 md:px-0 px-[5%] lg:space-y-10 md:space-y-8 space-y-6">
         <div className="lg:space-y-6 md:space-y-4 space-y-2">
           <div className="flex justify-center items-center">
             <p className="md:text-lg text-base border border-[#B6E9FF] bg-[#EFFAFF] text-[#0071AB] rounded-3xl px-3 pt-1 pb-2">
@@ -11,10 +11,10 @@ const StoreHero = () => {
             </p>
           </div>
           <h2 className="lg:text-[40px] md:text-4xl text-[28px] font-semibold text-[#3C4350] text-center">
-            Store Optimization
+            Integration
           </h2>
           <p className="text-[#464F5E] md:text-[18px] text-sm text-center">
-            Maximize your digital store's performance with our comprehensive optimization tools. Enhance customer experience, boost conversion rates, and streamline your sales process with advanced analytics and automated features designed for digital commerce success.
+            Connect your digital store with powerful third-party tools and services to streamline your business operations. Our seamless integration platform supports popular payment gateways, marketing tools, analytics platforms, and more, helping you create a unified ecosystem that grows with your business needs.
           </p>
         </div>
 
@@ -30,17 +30,17 @@ const StoreHero = () => {
 
       <div className="w-full">
         <div className="hidden lg:flex justify-center items-center">
-          <Image src="/store-optimization/store-optimization-hero-lg.webp" alt="Store optimization" width={1200} height={600} priority />
+          <Image src="/integration/integration-hero-lg.svg" alt="Integration hero" width={800} height={400} priority className="w-full h-full" />
         </div>
         <div className="lg:hidden md:flex hidden justify-center items-center">
-          <Image src="/store-optimization/store-optimization-hero-md.webp" alt="Store optimization" width={800} height={400} className="w-full h-full" />
+          <Image src="/integration/integration-hero-md.svg" alt="Integration hero" width={600} height={300} />
         </div>
         <div className="lg:hidden md:hidden w-full flex justify-center items-center">
-          <Image src="/store-optimization/store-optimization-hero-sm.webp" alt="Store optimization" width={400} height={300} className="w-full h-full" />
+          <Image src="/integration/integration-hero-sm.svg" alt="Integration hero" width={400} height={200} />
         </div>
       </div>
     </section>
   );
 };
 
-export default StoreHero;
+export default IntegrationHero;
