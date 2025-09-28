@@ -179,6 +179,12 @@ const ProductShowcase: React.FC = ()=> {
               </h1>
               <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
                 <MarqueeContent1 />
+              </h1>              
+              <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
+                <MarqueeContent1 />
+              </h1>
+            <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
+                <MarqueeContent1 />
               </h1>
             </div>
           </div>
@@ -191,6 +197,12 @@ const ProductShowcase: React.FC = ()=> {
               </h1>
               <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
                 <MarqueeContent2 />
+              </h1>              
+              <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
+                <MarqueeContent2 />
+              </h1>              
+              <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
+                <MarqueeContent2 />
               </h1>
             </div>
           </div>
@@ -201,6 +213,12 @@ const ProductShowcase: React.FC = ()=> {
               <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
                 <MarqueeContent3 />
               </h1>
+              <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
+                <MarqueeContent3 />
+              </h1>              
+              <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
+                <MarqueeContent3 />
+              </h1>              
               <h1 className="text-[#6A788D] flex items-center text-[24px] italic lg:text-[28px] mr-4">
                 <MarqueeContent3 />
               </h1>

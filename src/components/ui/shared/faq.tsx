@@ -47,7 +47,7 @@ const faqData: FAQItem[] = [
   },
 ]
 
-export default function FAQSection() {
+const FaqSection: React.FC = ()=> {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
 
   const toggleDropdown = (id: string) => {
@@ -95,7 +95,7 @@ export default function FAQSection() {
         }
       `}</style>
 
-      <section className="md:space-y-16 space-y-8 lg:px-0 md:px-0 px-[5%] md:mb-28 mb-10 md:mt-8 mt-4">
+      <section className="md:space-y-16 space-y-8 lg:px-0 md:px-0 px-[5%] md:mb-28 mb-10 md:mt-10  mt-4">
         <div className="space-y-4 text-center">
           <h3 className="lg:text-[40px] md:text-4xl text-[28px] font-semibold text-[#3C4350] text-center">
             Frequently Asked Questions
@@ -125,3 +125,5 @@ export default function FAQSection() {
     </>
   )
 }
+
+export default FaqSection;

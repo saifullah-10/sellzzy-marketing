@@ -1,5 +1,7 @@
-import Footer from "../../components/ui/shared/footer";
-import Header from "../../components/ui/shared/header";
+import CtaSection from "@/components/ui/shared/cta";
+import FaqSection from "@/components/ui/shared/faq";
+import Footer from "@/components/ui/shared/footer";
+import Header from "@/components/ui/shared/header";
 
 export default function MarketingLayout({
   children,
@@ -12,6 +14,8 @@ export default function MarketingLayout({
         <main>
             <Header />
             {children}
+            <CtaSection />
+            <FaqSection />
             <Footer />
         </main>
       </body>
