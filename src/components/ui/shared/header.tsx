@@ -55,14 +55,14 @@ export default function Header() {
   return (
     <>
       <style jsx>{`
-        .dropdown {
+        .header-dropdown {
           opacity: 0;
           visibility: hidden;
           transform: translateY(-100px);
           transition: all 0.3s ease;
         }
         
-        .nav-item.active .dropdown {
+        .nav-item.active .header-dropdown {
           opacity: 1;
           visibility: visible;
           transform: translateY(0);
@@ -151,7 +151,7 @@ export default function Header() {
                       <path d="M7.41406 8.64062C7.15365 8.64062 6.91667 8.53646 6.70312 8.32812L0.757812 2.24219C0.669271 2.15885 0.601562 2.0651 0.554688 1.96094C0.513021 1.85156 0.492188 1.73438 0.492188 1.60938C0.492188 1.4375 0.53125 1.28125 0.609375 1.14062C0.692708 1 0.802083 0.890625 0.9375 0.8125C1.07292 0.729167 1.22656 0.6875 1.39844 0.6875C1.64844 0.6875 1.86719 0.78125 2.05469 0.96875L7.79688 6.85156H7.03906L12.7734 0.96875C12.9609 0.78125 13.1797 0.6875 13.4297 0.6875C13.6016 0.6875 13.7552 0.729167 13.8906 0.8125C14.026 0.890625 14.1328 1 14.2109 1.14062C14.2943 1.28125 14.3359 1.4375 14.3359 1.60938C14.3359 1.85417 14.2474 2.0651 14.0703 2.24219L8.125 8.32812C8.02604 8.43229 7.91667 8.51042 7.79688 8.5625C7.67708 8.61458 7.54948 8.64062 7.41406 8.64062Z" />
                     </svg>
                   </a>
-                  <div className="dropdown absolute top-full p-4 left-0 bg-white border border-[#EDEEF1] rounded-xl shadow-xl z-50">
+                  <div className="header-dropdown opacity-0 absolute top-full p-4 left-0 bg-white border border-[#EDEEF1] rounded-xl shadow-xl z-50">
                     <Link href="/product-management" className="block cursor-pointer pb-3 hover:no-underline">
                       <div className="flex group justify-center items-center gap-4">
                         <div className="flex items-center gap-4">
@@ -315,7 +315,7 @@ export default function Header() {
                       <path d="M7.41406 8.64062C7.15365 8.64062 6.91667 8.53646 6.70312 8.32812L0.757812 2.24219C0.669271 2.15885 0.601562 2.0651 0.554688 1.96094C0.513021 1.85156 0.492188 1.73438 0.492188 1.60938C0.492188 1.4375 0.53125 1.28125 0.609375 1.14062C0.692708 1 0.802083 0.890625 0.9375 0.8125C1.07292 0.729167 1.22656 0.6875 1.39844 0.6875C1.64844 0.6875 1.86719 0.78125 2.05469 0.96875L7.79688 6.85156H7.03906L12.7734 0.96875C12.9609 0.78125 13.1797 0.6875 13.4297 0.6875C13.6016 0.6875 13.7552 0.729167 13.8906 0.8125C14.026 0.890625 14.1328 1 14.2109 1.14062C14.2943 1.28125 14.3359 1.4375 14.3359 1.60938C14.3359 1.85417 14.2474 2.0651 14.0703 2.24219L8.125 8.32812C8.02604 8.43229 7.91667 8.51042 7.79688 8.5625C7.67708 8.61458 7.54948 8.64062 7.41406 8.64062Z" />
                     </svg>
                   </a>
-                  <div className="dropdown absolute p-4 top-full left-0 bg-white border border-[#EDEEF1] rounded-xl z-50">
+                  <div className="header-dropdown opacity-0 absolute p-4 top-full left-0 bg-white border border-[#EDEEF1] rounded-xl z-50">
                     <a href="https://blog.sellzzy.com/" className="block pb-3 cursor-pointer hover:no-underline">
                       <div className="flex group justify-between items-center gap-4">
                         <div className="flex items-center gap-4">

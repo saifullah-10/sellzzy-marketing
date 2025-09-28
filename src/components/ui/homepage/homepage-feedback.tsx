@@ -1,6 +1,7 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import Image from "next/image"
+import { useEffect, useRef} from "react"
 
 interface Testimonial {
   id: number
@@ -381,8 +382,12 @@ const testimonials: Testimonial[] = [
 
 const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
   <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-    <div className="flex items-center gap-4 mb-6">
-      <img src={testimonial.image || "/placeholder.svg"} alt={testimonial.name} className="w-10 h-10 rounded-full" />
+    <div className="flex relative items-center gap-4 mb-6">
+      <Image
+       src={testimonial.image || "/placeholder.svg"} 
+       alt={testimonial.name}
+       fill
+       className="w-10 h-10 rounded-full" />
       <div>
         <h2 className="text-xl font-semibold text-gray-900">{testimonial.name}</h2>
         <p className="text-gray-600">

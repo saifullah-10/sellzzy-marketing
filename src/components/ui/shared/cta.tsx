@@ -72,7 +72,7 @@ const CtaSection: React.FC = () => {
 
             <div className="lg:space-y-5 md:space-y-4 space-y-3 w-full max-w-4xl mx-auto px-4 py-10">
                 <h4 className="lg:text-[40px] md:text-4xl text-[28px] font-semibold text-[#3C4350]">Ready to Start Earning From Your Digital Products?</h4>
-                <p className="lg:text-lg md:text-base text-sm text-gray-600 leading-relaxed">Join Sellzzy and unlock your digital business's full potential. Effortlessly sell and deliver products, engage
+                <p className="lg:text-lg md:text-base text-sm text-gray-600 leading-relaxed">Join Sellzzy and unlock your digital business&apos;s full potential. Effortlessly sell and deliver products, engage
                 customers, and drive revenue growth. Take advantage of our powerful features, seamless integrations, and
                 user-friendly interface.</p>
                 <div className="flex md:flex-row flex-col items-center gap-5">

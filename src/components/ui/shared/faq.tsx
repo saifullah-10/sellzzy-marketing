@@ -100,7 +100,7 @@ const FaqSection: React.FC = ()=> {
           <h3 className="lg:text-[40px] md:text-4xl text-[28px] font-semibold text-[#3C4350] text-center">
             Frequently Asked Questions
           </h3>
-          <p className="text-[#464F5E] md:text-lg text-sm">Got Questions about Sellzzy? We've Got Answers</p>
+          <p className="text-[#464F5E] md:text-lg text-sm">Got Questions about Sellzzy? We&apos;ve Got Answers</p>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-4">
