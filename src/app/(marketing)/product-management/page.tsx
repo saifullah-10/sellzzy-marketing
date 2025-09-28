@@ -1,10 +1,16 @@
+import BundleSection from "@/components/ui/product-management/bundle-section";
+import ControlProducts from "@/components/ui/product-management/control-products";
+import CustomCollections from "@/components/ui/product-management/custom-collections";
+import ProductHero from "@/components/ui/product-management/product-hero";
+
 const ProductManagementPage: React.FC = () => {
   return (
-
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold mb-4">Product Management Page</h1>
-      <p className="text-lg">This is the product management page for Sellzzy.</p>
-    </div>
+    <>
+      <ProductHero />
+      <BundleSection />
+      <CustomCollections />
+      <ControlProducts />
+    </>
   );
 };
 
