@@ -26,7 +26,7 @@ const IntegrationProfit = () => {
               </p>
             </div>
             <div className="w-full flex justify-center items-center flex-grow overflow-auto">
-              <Image src="/integration/integration-profit-easy.svg" alt="Easy configuration" width={300} height={200} className="w-full h-full" />
+              <Image src="./integration/integration-profit-easy.svg" alt="Easy configuration" width={300} height={200} className="w-full h-full" />
             </div>
           </div>
           <div className="bg-[#FAFAFB] rounded-xl md:p-8 p-4 lg:w-[50%] w-full flex flex-col space-y-2 h-[470px]">
@@ -39,7 +39,7 @@ const IntegrationProfit = () => {
               </p>
             </div>
             <div className="w-full flex justify-center items-center flex-grow overflow-auto">
-              <Image src="/integration/integration-profit-automated.svg" alt="Automated inventory sync" width={300} height={200} className="w-full h-full" />
+              <Image src="./integration/integration-profit-automated.svg" alt="Automated inventory sync" width={300} height={200} className="w-full h-full" />
             </div>
           </div>
         </div>
@@ -56,13 +56,13 @@ const IntegrationProfit = () => {
             </div>
             <div className="w-full flex justify-center items-center flex-grow overflow-auto">
               <div className="h-full object-contain lg:block hidden">
-                <Image src="/integration/integration-profit-manage.svg" alt="Manage integrations" width={800} height={400} className="w-full h-full"/>
+                <Image src="./integration/integration-profit-manage.svg" alt="Manage integrations" width={800} height={400} className="w-full h-full"/>
               </div>
               <div className="h-full object-contain lg:hidden md:block hidden">
-                <Image src="/integration/integration-profit-manage-md.svg" alt="Manage integrations" width={600} height={300} />
+                <Image src="./integration/integration-profit-manage-md.svg" alt="Manage integrations" width={600} height={300} />
               </div>
               <div className="h-full object-contain lg:hidden md:hidden block">
-                <Image src="/integration/integration-profit-manage-sm.svg" alt="Manage integrations" width={400} height={200} />
+                <Image src="./integration/integration-profit-manage-sm.svg" alt="Manage integrations" width={400} height={200} />
               </div>
             </div>
           </div>

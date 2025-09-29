@@ -30,13 +30,13 @@ const IntegrationHero = () => {
 
       <div className="w-full">
         <div className="hidden lg:flex justify-center items-center">
-          <Image src="/integration/integration-hero-lg.svg" alt="Integration hero" width={800} height={400} priority className="w-full h-full" />
+          <Image src="./integration/integration-hero-lg.svg" alt="Integration hero" width={800} height={400} priority className="w-full h-full" />
         </div>
         <div className="lg:hidden md:flex hidden justify-center items-center">
-          <Image src="/integration/integration-hero-md.svg" alt="Integration hero" width={600} height={300} />
+          <Image src="./integration/integration-hero-md.svg" alt="Integration hero" width={600} height={300} />
         </div>
         <div className="lg:hidden md:hidden w-full flex justify-center items-center">
-          <Image src="/integration/integration-hero-sm.svg" alt="Integration hero" width={400} height={200} />
+          <Image src="./integration/integration-hero-sm.svg" alt="Integration hero" width={400} height={200} />
         </div>
       </div>
     </section>

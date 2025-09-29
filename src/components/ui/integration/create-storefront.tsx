@@ -16,13 +16,13 @@ const CreateStorefront = () => {
 
       <div className="bg-[#FAFAFB] w-full flex justify-center items-center flex-grow">
         <div className="h-full object-contain lg:block hidden">
-          <Image src="/integration/integration-create-lg.svg" alt="Create storefront" width={1200} height={600} />
+          <Image src="./integration/integration-create-lg.svg" alt="Create storefront" width={1200} height={600} />
         </div>
         <div className="h-full object-contain lg:hidden md:block hidden">
-          <Image src="/integration/integration-create-md.svg" alt="Create storefront" width={800} height={400} />
+          <Image src="./integration/integration-create-md.svg" alt="Create storefront" width={800} height={400} />
         </div>
         <div className="h-full object-contain lg:hidden md:hidden block">
-          <Image src="/integration/integration-create-sm.svg" alt="Create storefront" width={400} height={300} />
+          <Image src="./integration/integration-create-sm.svg" alt="Create storefront" width={400} height={300} />
         </div>
       </div>
     </section>

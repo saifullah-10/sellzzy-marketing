@@ -383,11 +383,14 @@ const testimonials: Testimonial[] = [
 const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
   <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
     <div className="flex relative items-center gap-4 mb-6">
-      <Image
-       src={testimonial.image || "/placeholder.svg"} 
-       alt={testimonial.name}
-       fill
-       className="w-10 h-10 rounded-full" />
+    <Image
+      src={testimonial.image}
+      alt={testimonial.name}
+      width={40}
+      height={40}
+      className="rounded-full"
+    />
+
       <div>
         <h2 className="text-xl font-semibold text-gray-900">{testimonial.name}</h2>
         <p className="text-gray-600">
