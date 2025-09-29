@@ -6,7 +6,7 @@ const SubscriptionHero = () => {
       <div className="lg:px-0 md:px-0 px-[5%]">
         <div className="lg:space-y-6 md:space-y-4 space-y-2 md:mb-10 mb-5">
           <div className="flex justify-center items-center">
-            <p className="md:text-lg text-base border border-[#B6E9FF] bg-[#EFFAFF] text-[#0071AB] rounded-3xl px-3 pt-1 pb-2">
+            <p className="md:text-lg text-base border border-[#B6E9FF] bg-[#EFFAFF] text-[#0071AB] rounded-3xl px-4 py-2">
               Boost Business With Your Own Subscription
             </p>
           </div>

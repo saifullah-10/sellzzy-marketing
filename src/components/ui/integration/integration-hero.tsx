@@ -6,7 +6,7 @@ const IntegrationHero = () => {
       <div className="lg:px-0 md:px-0 px-[5%] lg:space-y-10 md:space-y-8 space-y-6">
         <div className="lg:space-y-6 md:space-y-4 space-y-2">
           <div className="flex justify-center items-center">
-            <p className="md:text-lg text-base border border-[#B6E9FF] bg-[#EFFAFF] text-[#0071AB] rounded-3xl px-3 pt-1 pb-2">
+            <p className="md:text-lg text-base border border-[#B6E9FF] bg-[#EFFAFF] text-[#0071AB] rounded-3xl px-4 py-2">
               Integration Made Easy
             </p>
           </div>

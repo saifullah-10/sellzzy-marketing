@@ -14,7 +14,7 @@ const ProductHero: React.FC = () => {
                     <h2 className="lg:text-[40px] md:text-4xl text-[28px] font-semibold text-[#3C4350] text-center">
                         Product Management
                     </h2>
-                    <p className="text-[#464F5E] mx-auto md:text-[18px] text-sm mb-4 md:mb-10 md:w-[80%] w-full text-center">
+                    <p className="text-[#464F5E] mx-auto md:text-[18px] text-sm mb-4 md:mb-6 md:w-[80%] w-full text-center">
                         Launch, organize, and scale your digital products effortlessly. Sellzzy makes it simple to manage eBooks, courses, designs, and software — all from one clean dashboard.
                     </p>
                 </div>
