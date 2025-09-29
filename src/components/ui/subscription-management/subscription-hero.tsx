@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const SubscriptionHero = () => {
   return (
@@ -19,9 +20,9 @@ const SubscriptionHero = () => {
         </div>
 
         <div className="flex flex-row justify-center items-center gap-5">
-          <a href="#" className="bg-[#00B0F4] text-center hover:no-underline text-white rounded-xl border border-[#2CC9FF] pt-[12px] pb-[12px] pr-[16px] pl-[16px] transition-all hover:shadow-[0_0_0_2px_rgba(44,201,255,0.4)] duration-500 hover:scale-[1.01] md:w-auto w-full">
+          <Link href="https://www.sellzzy.com/admin/onboarding/?request_type=signup" className="bg-[#00B0F4] text-center hover:no-underline text-white rounded-xl border border-[#2CC9FF] pt-[12px] pb-[12px] pr-[16px] pl-[16px] transition-all hover:shadow-[0_0_0_2px_rgba(44,201,255,0.4)] duration-500 hover:scale-[1.01] md:w-auto w-full">
             Start For free
-          </a>
+          </Link>
           <button className="bg-white text-center hover:no-underline hover:text-[#00B0F4] text-[#00B0F4] rounded-[12px] border border-[#2CC9FF] pt-[12px] pb-[12px] pr-[16px] pl-[16px] transition-transform duration-200 hover:scale-[1.01] md:w-auto w-full focus:outline-none">
             Contact Sales
           </button>

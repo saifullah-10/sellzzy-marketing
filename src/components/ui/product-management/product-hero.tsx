@@ -21,7 +21,7 @@ const ProductHero: React.FC = () => {
 
                 <div className="flex md:flex-row flex-col justify-center items-center gap-5">
                     <Link
-                        href="/signup"
+                       href="https://www.sellzzy.com/admin/onboarding/?request_type=signup"
                         className="bg-[#00B0F4] text-center hover:no-underline text-white rounded-xl border border-[#2CC9FF] pt-[12px] pb-[12px] pr-[16px] pl-[16px] 
             transition-all duration-500 hover:shadow-[0_0_0_2px_rgba(44,201,255,0.4)] hover:scale-[1.01]
             md:w-auto w-full"
