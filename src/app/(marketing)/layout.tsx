@@ -9,8 +9,6 @@ export default function MarketingLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
         <main>
             <Header />
             {children}
@@ -18,7 +16,5 @@ export default function MarketingLayout({
             <FaqSection />
             <Footer />
         </main>
-      </body>
-    </html>
   );
 }
